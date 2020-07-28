@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/work.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img id="wall1" src="image/wall1.jpg" alt="">
+        </div>
+        <div>
+            <table width="1000">
+                <tr>
+                    <th style="font-size: 30px;">動漫喜好調查</th>
+                </tr>
+                <tr>
+                    <td style="font-size: 17px;">你/妳喜歡看動漫嗎? 花個幾分鐘讓我們知道你/妳對動漫的喜好與看法吧!</td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <div>
+        <table width="1000">
+            <tr>
+                <th colspan="2">
+                    1.請問你/妳的性別:
+                </th>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr class="gender">
+                <td>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">生理男</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" id="fmale">
+                    <label for="fmale">生理女</label>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table width="1000">
+            <tr>
+                <th>
+                    2.請問你/妳的年紀:
+                </th>
+            </tr>
+            <tr class="old">
+                <td>
+                    <input type="number" name="old" id="old" placeholder="請填入數字" min="0" max="100">
+                    <label for="old">歲</label>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table width="1000">
+            <tr>
+                <th colspan="4">
+                    3.請問你/妳看過哪些動漫:
+                </th>
+                <!-- https://wall.alphacoders.com/by_category.php?id=3&name=%E5%8A%A8%E6%BC%AB+%E5%A3%81%E7%BA%B8&lang=Chinese&page=12 -->
+            </tr>
+            <tr class="kind">
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox1">
+                    <label for="checkbox1">鋼之鍊金術師</label>
+                    <img id="FULLMETAL ALCHEMIST" src="image/FULLMETAL ALCHEMIST2.jpg" alt="">
+                </td>
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox2">
+                    <label for="checkbox2">銀之匙</label>
+                    <img id="SILVER SPOON" src="image/SILVER SPOON.jpg" alt="">
+                </td>
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox3">
+                    <label for="checkbox3">SAO刀劍神域</label>
+                    <img id="SWORD ART ONLINE" src="image/SWORD ART ONLINE.jpg" alt="">
+                </td>
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox4">
+                    <label for="checkbox4">夏目友人帳</label>
+                    <img id="Natsume's Book of Friends" src="image/Natsume's Book of Friends.jpg" alt="">
+                </td>
+            </tr>
+            <tr class="kind">
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox5">
+                    <label for="checkbox5">為美好的世界獻上祝福</label>
+                    <img id="Konosuba" src="image/Konosuba.jpg" alt="">
+                </td>
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox6">
+                    <label for="checkbox6">一拳超人</label>
+                    <img id="One Punch" src="image/One Punch.jpg" alt="">
+                </td>
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox7">
+                    <label for="checkbox7">死神</label>
+                    <img id="BLEACH" src="image/BLEACH.jpg" alt="">
+                </td>
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox8">
+                    <label for="checkbox8">我的英雄學院</label>
+                    <img id="My Hero Academia" src="image/My Hero Academia.jpg" alt="">
+                </td>
+            </tr>
+            <tr class="kind">
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox9">
+                    <label for="checkbox9">進擊的巨人</label>
+                    <img id="Attack on Titan" src="image/Attack on Titan.jpg" alt="">
+                </td>
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox10">
+                    <label for="checkbox10">東京喰種</label>
+                    <img id="Tokyo Ghoul" src="image/Tokyo Ghoul.jpg" alt="">
+                </td>
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox11">
+                    <label for="checkbox11">妖精的尾巴</label>
+                    <img id="FAIRY TAIL" src="image/FAIRY TAIL.jpg" alt="">
+                </td>
+                <td>
+                    <input type="checkbox" name="kind" id="checkbox12">
+                    <label for="checkbox12">海賊王</label>
+                    <img id="ONE PIECE" src="image/ONE PIECE.jpg" alt="">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table width="1000">
+            <tr>
+                <th colspan="4">
+                    4.以下問題幫我們選選看:
+                </th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>NO</th>
+                <th>SOSO</th>
+                <th>YES</th>
+            </tr>
+            <tr class="select">
+                <td>
+                    喜歡漫畫?
+                </td>
+                <td>
+                    <input type="radio" name="select" id="no">
+                </td>
+                <td>
+                    <input type="radio" name="select" id="soso">
+                </td>
+                <td>
+                    <input type="radio" name="select" id="yes">
+                </td>
+            </tr>
+            <tr class="select">
+                <td>
+                    喜歡動畫?
+                </td>
+                <td>
+                    <input type="radio" name="select2" id="no">
+                </td>
+                <td>
+                    <input type="radio" name="select2" id="soso">
+                </td>
+                <td>
+                    <input type="radio" name="select2" id="yes">
+                </td>
+            </tr>
+            <tr class="select">
+                <td>
+                    願意買動漫周邊產品嗎?
+                </td>
+                <td>
+                    <input type="radio" name="select3" id="no">
+                </td>
+                <td>
+                    <input type="radio" name="select3" id="soso">
+                </td>
+                <td>
+                    <input type="radio" name="select3" id="yes">
+                </td>
+            </tr>
+            <tr class="select">
+                <td>
+                    我們的問卷做得好嗎?
+                </td>
+                <td>
+                    <input type="radio" name="select4" id="no">
+                </td>
+                <td>
+                    <input type="radio" name="select4" id="soso">
+                </td>
+                <td>
+                    <input type="radio" name="select4" id="yes">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table width="1000">
+            <tr>
+                <th>
+                    5.你/妳有什麼樣的動漫要跟我們分享?
+                </th>
+            </tr>
+            <tr class="share">
+                <td>
+                    <input type="text" name="" id="share" placeholder="請填入文字">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="送出問卷" style="font-size: 30px; width: 200px;">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

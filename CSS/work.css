@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(249, 248, 247);
+}
+
+div:first-child {
+    text-align: center;
+}
+
+#wall1 {
+    width: 1000px;
+}
+
+table {
+    /* border: 2px solid rgb(127, 104, 94); */
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: rgb(127, 104, 94);
+    background-color: white;
+}
+
+th {
+    /* border: 2px solid rgb(127, 104, 94); */
+    width: 950px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+td {
+    /* border: 1px dotted rgb(127, 104, 94); */
+    text-align: left;
+    /* 內容對齊 */
+    padding-top: 15px;
+    /* 上面留空距離 */
+    font-size: 15px;
+    font-weight: bold;
+    /* 字型粗體 */
+    width: 500px;
+    /* display: block; */
+}
+
+.gender td {
+    border: 1px dotted rgb(127, 104, 94);
+    /* 邊框虛線 */
+}
+
+.old td input {
+    width: 930px;
+    line-height: 2;
+    /* 填入格的高度 */
+    border-style: none;
+    border-bottom: 1px solid rgb(165, 149, 142);
+}
+
+td img {
+    width: 200px;
+}
+
+#share {
+    width: 950px;
+    line-height: 2;
+    /* 填入格的高度 */
+    border-style: none;
+    font-size: 50px;
+    border-bottom: 1px solid rgb(165, 149, 142);
+}
+
+.select:nth-child(even) {
+    background-color: rgb(249, 248, 247);
+}
+.select:nth-child(odd) {
+    background-color: rgb(223, 220, 217);
+}
